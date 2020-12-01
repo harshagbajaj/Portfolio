@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&family=Work+Sans:wght@300;500&display=swap');
+
+:root{
+    --primary-color: #082e3b;
+    --off-white : #9fd6f2;
+    --dark-gray : #082e3b;
+    --blueshade : #0d435e;
+}
+
+body{
+     font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+
+.container{
+    padding: 0.5rem,1rem;
+}
+
+.navagation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius:1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.navagation .nav-pills{
+    text-align: right;
+}
+
+.navagation .link{
+color: white;
+}
+
+.list-non-bullet{
+    list-style:none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    color: var(--blueshade);
+    text-align: center;
+    padding: 1rem;
+}
+
+.hero .hero-heading-inverted{
+    color: var(--blueshade);
+    
+    text-align: center;
+}
+
+.section{
+    padding: 1rem;
+
+}
+.section h1{
+    text-align: center;
+}
+.section .container-mid{
+    max-width: 600px;
+    margin: auto;
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
