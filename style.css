@@ -26,7 +26,7 @@ body{
 
 .navigation .nav-brand{
     font-weight: bold;
-    font-size: 10rem;
+    font-size:1.5em;;
     text-size-adjust: 20rem;
     padding: 1rem; 
     
@@ -49,7 +49,7 @@ color: white;
     padding: 0rem 0.5rem;
     text-size-adjust: 2rem;
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 .navigation .link-active{
@@ -60,6 +60,7 @@ color: white;
     padding: 2rem;
     padding-top: 3rem;
     padding-bottom: 1rem;
+    font-size: 1.5em;
 }
 
 .hero .hero-img{
@@ -72,6 +73,7 @@ color: white;
     color: var(--primary-color);
     text-align: center;
     padding: 1rem;
+    
 }
 
 .hero .hero-heading-inverted{
